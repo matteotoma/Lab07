@@ -11,6 +11,10 @@ public class Nerc {
 		this.value = value;
 	}
 
+	public Nerc(int i) {
+		this.id = i;
+	}
+
 	public int getId() {
 		return id;
 	}
